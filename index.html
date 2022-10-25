@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | News homepage</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="container bg-white border-box m-0">
+  <div class="px-24 py-20">
+    <header class="flex flex-row items-center justify-between">
+      <img src="assets/images/logo.svg" alt="Logo">
+      <nav>
+        <ul class="flex flex-row justify-between space-x-10">
+          <li>
+            <a href="#Home" class="text-gray-400 hover:text-gray-600">Home</a>
+          </li>
+          <li>
+            <a href="#new" class="text-gray-400 hover:text-gray-600">New</a>
+          </li>
+          <li>
+            <a href="#popular" class="text-gray-400 hover:text-gray-600">Popular</a>
+          </li>
+          <li>
+            <a href="#trend" class="text-gray-400 hover:text-gray-600">Trending</a>
+          </li>
+          <li>
+            <a href="#categories" class="text-gray-400 hover:text-gray-600">Categories</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="mt-10">
+      <div class="grid grid-cols-3 gap-5">
+        <div class="col-span-2">
+          <img src="assets/images/image-web-3-desktop.jpg" alt="Hero">
+          <div class="flex flex-row mt-6 space-x-10">
+            <h1 class="heading text-dark-slate-gray font-bold">The Bright Future of Web 3.0?</h1>
+            <div class="flex flex-col">
+            <p class="w-3/4 text-xs text-gray-500"> We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+              But is it really fulfilling its promise?</p>
+              <div>
+                <button class="mt-12 tracking-widest px-6 py-2 bg-red-500 hover:bg-red-600 hover:px-7 text-white text-xs transition ease-in-out delay-150 duration-300">READ MORE</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-span-1 bg-gray-800 p-4">
+          <h2 class="text-3xl font-semibold text-yellow-500 mt-3">New</h2>
+          <h3 class="text-white font-semibold text-md mt-10">Hydrogen VS Electric Cars</h3>
+          <p class="text-xs text-gray-400 mt-3">Will hydrogen-fueled cars ever catch up to EVs?</p>
+          <hr class="mt-8" color="gray">
+          <h3 class="text-white font-semibold text-md mt-10">The Downsides of AI Artistry</h3>
+          <p class="text-xs text-gray-400 mt-3">What are the possible adverse effects of on-demand AI image generation?</p>
+          <hr class="mt-8">
+          <h3 class="text-white font-semibold text-md mt-10">Is VC Funding Drying Up?</h3>
+          <p class="text-xs w-80 text-gray-400 mt-3">Private funding by VC firms is dowwn 50% YOY. We take a look at what that means.</p>
+        </div>
+      </div>
+      <div class="flex flex-row items-center mt-8 space-x-6">
+        <div class="flex flex-row space-x-4">
+          <img src="assets/images/image-retro-pcs.jpg" alt="retro" class="w-22 h-36">
+          <div class="flex flex-col">
+            <span class="text-gray-400 text-2xl">01</span>
+            <h2 class="text-lg font-semibold text-gray-700 mt-3">Reviving Retro PCs</h2>
+            <p class="mt-4 text-gray-400 text-sm w-52">What happens when old PCs are given modern upgrades?</p>
+          </div>
+          
+        </div>
+        <div class="flex flex-row space-x-6">
+          <img src="assets/images/image-top-laptops.jpg" alt="retro" class="w-22 h-36">
+          <div class="flex flex-col">
+            <span class="text-gray-400 text-2xl">02</span>
+            <h2 class="text-lg font-semibold text-gray-700 mt-3">Top 10 Laptops of 2020</h2>
+            <p class="mt-4 text-gray-400 text-sm w-52">Our best picks for various needs and budgets.</p>
+          </div>
+          
+        </div>
+        <div class="ml-6 flex flex-row space-x-6">
+          <img src="assets/images/image-gaming-growth.jpg" alt="retro" class="w-22 h-36">
+          <div class="flex flex-col">
+            <span class="text-gray-400 text-2xl">03</span>
+            <h2 class="text-lg font-semibold text-gray-700 mt-3">The Growth of Gaming</h2>
+            <p class="mt-4 text-gray-400 text-sm w-52">How the pandemic has sparked fresh opportunities.</p>
+          </div>
+          
+        </div>
+      </div>
+    </main>
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Bryan Mureithi</a>.
+  </div>
+</body>
+</html>
